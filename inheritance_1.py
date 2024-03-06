@@ -9,14 +9,14 @@ class Car:
 
 
 class Nissan(Car):
-    def horse_powers(self):
     Price = 1500000
+    def horse_powers(self):
         self.horse_powers = 2000
 
 
 class Kia(Car):
-    def horse_powers(self):
     Price = 1200000
+    def horse_powers(self):
         self.horse_powers = 1600
 
 
