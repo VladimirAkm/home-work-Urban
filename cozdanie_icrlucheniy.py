@@ -1,15 +1,3 @@
-# try:
-#     age = int(input("Введите возраст: "))
-#     if age > 90 or age < 1:
-#         raise Exception("Некорректный возраст")
-#     print("Ваш возраст:", age)
-# except ValueError:
-#     print("Введены некорректные данные")
-# except Exception as e:
-#     print(e)
-# print("Завершение программы")
-
-
 class PersonAgeException(Exception):
     def __init__(self, age, minage, maxage):
         self.age = age
